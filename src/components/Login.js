@@ -8,9 +8,7 @@ const Login = (props) => (
         <button className='github' onClick={() => props.authenticate('Github')}>
             Login with Github
         </button>
-        <button className='github' onClick={() => props.authenticate('Github')}>
-            Login with Github
-        </button>
+        
     </nav>
 );
 
