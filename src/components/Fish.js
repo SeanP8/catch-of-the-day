@@ -20,7 +20,7 @@ class Fish extends React.Component {
         // const image = this.props.details.image;
         // const name = this.props.details.name;
         const { image, name, desc, price, status } = this.props.details;
-        const isAvailable = status == 'available';
+        const isAvailable = status === 'available';
 
         return (
             <li className='menu-fish'>

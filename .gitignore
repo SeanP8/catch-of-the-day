@@ -24,3 +24,4 @@ sketch
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
+.vercel
